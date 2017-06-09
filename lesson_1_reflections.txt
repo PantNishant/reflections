@@ -1,0 +1,40 @@
+Q)How did viewing a diff between two versions of a file help you see the bug  that was introduced?
+
+Ans) By viewing two versions at the same time
+       we can use various command to compare
+       these files line by line and bring out differences 
+       between two files and thus clearly striking out 
+       the lines which may have caused the error.
+
+
+Q) How could having easy access to entire history of the file make you a more efficient programmer in the long term?
+
+Ans) With entire history we can track the changes made in the source 
+       code and see what effects the code is having. It can give a better
+       understanding of how the code works.
+
+
+Q) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having
+     versions automatically saved, like Google Docs does?
+
+Ans.) Pros : Commits can be made when there are some logical changes in the files 
+                  independent of the time and size of line.
+        Cons: One must remember to commit and choose when to commit wisely.
+
+Q) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+     like Google Docs, treat each file separately?
+Ans) Often mulitple files are related with each other and changes in one file usually effect
+        changes in other files as well. So it is logical to save all related files in one commit so 
+        that all changes are saved simultaneously. 
+
+Q) How can you use the commands git log and git diff to view the history of files?
+Ans) git log gives details of all the commits made in the repository.
+        git diff help to compare changes made in between those commits.
+
+Q) How might using version control make you more confident to make changes that could break something?
+Ans) Since we can always checkout to a previous commit it helps us 
+        to make bold changes as they can be reverted back.
+
+Q) Now that you have your workspace set up, what do you want to try using Git for?
+Ans) Work on a small project which involves changing of code and can be worked upon 
+        by working on newer version while saving the older ones.
