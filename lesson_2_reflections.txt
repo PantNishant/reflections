@@ -1,0 +1,11 @@
+Q) What happens when you initialize a repository? Why do you need to do it?
+Ans) .git file in created after initializing a repository and all the history of the file
+        starts getting tracked. This needs to be done so that any  changes we make
+        can be tracked and checked back to in case of an error.
+
+Q) How is the staging area different from the working directory and the repository?
+     What value do you thing it offers?
+Ans.) Files in Staging area are not commited and files in the repository are commited.
+         Files in Staging area are bundled together and added to the repository with a single 
+         commit while file in the working directory can not be commited directly to the 
+         repository.
