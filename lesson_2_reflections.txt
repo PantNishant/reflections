@@ -9,3 +9,33 @@ Ans.) Files in Staging area are not commited and files in the repository are com
          Files in Staging area are bundled together and added to the repository with a single 
          commit while file in the working directory can not be commited directly to the 
          repository.
+
+Q) How can you use the staging area to make sure you have one commit per logical change?
+Ans) We can only add the file that we made changes in to the staging area and then commit it. We
+        can also add more than one files if multiple related files are changed and then with single commit
+        can add them to the repository.
+
+Q) What are some of the situations when branches would be helpful in keeping your history organized?   
+      How would branches help?
+Ans) Suppose we want to create two versions of the same project in which both the versions are 
+        important at the moment and which version will finally be accepted will be decided later. In
+        that case we can create separate branches and work on each branch independently and later
+        merge them.
+
+Q) How do the diagrams help you to visualize the branch structure?
+Ans) Making diagrams gives idea of the parents of each branch and thus we have an idea what 
+        branches are not unreachable. Also this can tell which commits will be effect by the changes
+        we make in this branch. 
+
+Q) What is the result of merging two branches together? Why do we represent it in the
+     diagram the way we do?
+Ans) Result of merging two branches is one file with lines in both branches and the chnages
+        made in both branches merged together. We represent the way we do because the 
+        coins branch get merged into to master branch therefore now there remains only one branch in
+        place of two.
+
+Q) What are the pros and cons of Git's automatic merging vs always doing merges manully?
+Ans) Automatic merging take care of changes which are only in one file and thus saves time.
+        However in some changes which are on the same regions of code there can be conflicts 
+        which cannot be handled by automatic merging. This is where manual merging comes in 
+        handy where we can ourself decide which part of the change we want to keep.
